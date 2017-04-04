@@ -10,13 +10,13 @@ import android.widget.TextView;
 public class WeatherController extends AppCompatActivity {
 
     // Constants:
-    String WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather";
+    final String WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather";
     // App ID to use OpenWeather data
-    String APP_ID = "e72ca729af228beabd5d20e3b7749713";
+    final String APP_ID = "e72ca729af228beabd5d20e3b7749713";
     // Time between location updates (5000 milliseconds or 5 seconds)
-    long MIN_TIME = 5000;
+    final long MIN_TIME = 5000;
     // Distance between location updates (1000m or 1km)
-    float MIN_DISTANCE = 1000;
+    final float MIN_DISTANCE = 1000;
 
     // TODO: Set LOCATION_PROVIDER here:
 
